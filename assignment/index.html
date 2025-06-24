@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Punit Prajapati | 9034412 -->>
+<!-- Punit Prajapati | 9034412 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the vibrant culture, rich history, and diversity of India.">
@@ -18,39 +18,92 @@
     <main>
         <!-- Overview Section-->
         <section id="Overview">
-            <h2></h2>
+            <h2>Overview</h2>
+            <blockquote cite="https://en.wikipedia.org/wiki/India">
+                <p><strong>India</strong> is a country of immense cultural and geographical diversity, known for its rich history, vibrant festivals, and dynamic economy.</p>
+                </blockquote>
 
         </section>
-          <!---Images-->
-        <section>
+          <!-- Gallery Section-->
+        <section id="gallery">
+             <h2>Gallery</h2>
+            <figure>
+                <img src="images/tajmahal.jpg" alt="Taj Mahal in Agra, India" width="500">
+                <figcaption>The Taj Mahal – a symbol of love and one of the Seven Wonders of the World.</figcaption>
+
+            </figure>
 
         </section>
-         <!---Quote-->
-        <section>
+         <!-- Famous Quote Section-->
+        <section id="quote">
+            <h2>Famous Quote</h2>
+            <p>
+                <q cite="https://www.brainyquote.com/quotes/mahatma_gandhi_10901">Be the change that you wish to see in the world.</q>
+                — <cite>Mahatma Gandhi</cite>
+            </p>
+
 
         </section>
-        <!--Video-->
-        <section>
+        <!--Video Section-->
+        <section id="video">
+             <h2>Watch: Incredible India</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lxP5PfD5rJo" 
+            title="Incredible India Video" frameborder="0" allowfullscreen></iframe>
+
 
         </section>
        
     </main>
     <aside>
         <!--Links-->
-        <section>
+        <section id="links">
+            <h2>External Links</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/India" target="_blank" title="Wikipedia Page">Wikipedia - India</a></li>
+                <li><a href="https://www.incredibleindia.org" target="_blank" title="Government Tourism Website">Incredible India</a></li>
+                <li><a href="https://www.britannica.com/place/India" target="_blank" title="Encyclopedia Britannica">Britannica - India</a></li>
+            </ul>
 
         </section>
           <!--Table-->
-          <section>
+          <section id="facts">
+             <h2>Quick Facts</h2>
+            <table border="1">
+                <tr><th>Fact</th><th>Detail</th></tr>
+                <tr><td>Population</td><td>1.4 Billion+</td></tr>
+                <tr><td>Capital</td><td>New Delhi</td></tr>
+                <tr><td>Currency</td><td>Indian Rupee (INR)</td></tr>
+            </table>
             
           </section>
      
          <!--Form-->
-        <section>
-            
+        <section id="feedback">
+             <h2>Contact Us</h2>
+            <form>
+                <label for="name" class="form-label">Name:</label><br>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required autofocus><br><br>
+
+                <label for="email" class="form-label">Email:</label><br>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email"><br><br>
+
+                <label for="reason" class="form-label">Reason for Visit:</label><br>
+                <select id="reason" name="reason" class="form-control">
+                    <option value="tourism">Tourism</option>
+                    <option value="study">Study</option>
+                    <option value="business">Business</option>
+                </select><br><br>
+
+                <label for="message" class="form-label">Message:</label><br>
+                <textarea id="message" name="message" class="form-control" placeholder="Write your message..."></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        
         </section>
     </aside>
     <footer>
+        <p>&copy; Punit Praajapati, 2025</p>
 
     </footer>
 </body>
